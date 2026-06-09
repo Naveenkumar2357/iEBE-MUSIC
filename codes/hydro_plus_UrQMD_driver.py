@@ -511,6 +511,7 @@ def zip_results_into_hdf5(final_results_folder, event_id, para_dict):
         "global_angular_momentum_*.dat",
         "vorticity_evo_*.dat",
         "FO_nBvseta.dat",
+        "Lmunu_angular_momentum_tau_*.dat",
     ]
     photon_filepattern = ['*_Spvn*.dat']
     spin_filepattern = [
